@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Diri</title>
+</head>
+<body>
+
+    <!-- Bagian Profil Utama -->
+    <div>
+        <!-- Tag div digunakan untuk membuat container profil utama -->
+        <h1>Profile Diri</h1>
+        <!-- Tag img digunakan untuk menampilkan gambar profil -->
+        <img src="naisna.JPG" alt="Foto Profil" width="200">
+        <!-- Keterangan tentang diri -->
+        <p>Halo, saya Isna Agustina. Saya seorang mahasiswa yang tertarik pada pengembangan web dan pemrograman.</p>
+    </div>
+
+   <!-- Bagian Kontak -->
+<h2>Kontak Saya</h2>
+<!-- Tag table digunakan untuk menyusun data kontak secara terstruktur -->
+<table border="1">
+    <tr>
+        <!-- Tag th untuk header tabel -->
+        <th>Jenis Kontak</th>
+        <th>Detail</th>
+    </tr>
+    <tr>
+        <!-- Tag td untuk menyusun data dalam tabel -->
+        <td>Email</td>
+        <td><a href="mailto:gustinana1924@gmail.com">gustinana1924@gmail.com</a></td>
+    </tr>
+    <tr>
+        <td>Telepon</td>
+        <td><a href="tel:+6285810503308">085810503308</a></td>
+    </tr>
+</table>
+
+
+    <!-- Bagian Formulir Kontak -->
+    <h2>Hubungi Saya</h2>
+    <!-- Tag form digunakan untuk membuat formulir kontak -->
+    <form action="#" method="post">
+        <!-- Tag input untuk membuat kolom teks input nama -->
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <!-- Tag input untuk membuat kolom teks input email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- Tag input untuk membuat kolom teks input pesan -->
+        <label for="message">Pesan:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+        <!-- Tag button untuk membuat tombol kirim -->
+        <button type="submit">Kirim</button>
+    </form>
+
+    <!-- Bagian Video -->
+    <h2>Tampilan Home</h2>
+    <!-- Tag video untuk menampilkan video perkenalan -->
+    <video width="320" height="240" controls>
+        <source src="Tampilan Home.mp4" type="video/mp4">
+        Browser Anda tidak mendukung pemutar video.
+    </video>
+
+    <!-- Bagian Link Media Sosial -->
+    <h2>Ikuti Saya</h2>
+    <!-- Tag a digunakan untuk membuat link ke media sosial -->
+    <a href="https://www.linkedin.com/feed/" target="_blank">LinkedIn</a> |
+    <a href="https://www.instagram.com/" target="_blank">Instgram</a> |
+    <a href="https://github.com/Isna19/tugas6.github.io" target="_blank">GitHub</a>
+
+</body>
+</html>
